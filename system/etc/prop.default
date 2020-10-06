@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=2019年 03月 27日 星期三 01:33:29 CST
+ro.bootimage.build.date.utc=1553621609
+ro.bootimage.build.fingerprint=CUBOT/CUBOT_P20/CUBOT_P20:8.0.0/O00623/1527751681:user/release-keys
+persist.sys.usb.config=none

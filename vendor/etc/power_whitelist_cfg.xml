@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+         <Package name="com.tencent.tmgp.sgame">
+            <Activity name="Common">
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="1001000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="1001000"/>
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="0" Param2="4"/>
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="1" Param2="2"/>
+		        <CMD_SET_GPU_FREQ_MIN Param1="350000"/>   
+		        <CMD_SET_VCORE_MIN Param1 ="0"/>
+                <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+                <CMD_SET_FSTB_FPS Param1="60" Param2="30"/>
+                <CMD_SET_FBT_FLOOR_BOUND Param1="1"/>
+                <CMD_SET_FBT_KMIN Param1="10"/>
+                <CMD_SET_CPU_CORE_MIN Param1="8"/>			        
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgmhd">
+            <!-- 绝地求生 -->
+            <Activity name="Common">
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="1001000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="1001000"/>
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="0" Param2="4"/>
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="1" Param2="2"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="350000"/>   
+                <CMD_SET_VCORE_MIN Param1 ="0"/>          
+                <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+                <CMD_SET_FSTB_FPS Param1="60" Param2="30"/>
+                <CMD_SET_FBT_FLOOR_BOUND Param1="1"/>
+                <CMD_SET_FBT_KMIN Param1="10"/>                
+                <CMD_SET_CPU_CORE_MIN Param1="8"/>
+            </Activity>
+        </Package>     
+        <Package name="com.tencent.tmgp.pubgm">
+            <!-- 绝地求生 -->
+            <Activity name="Common">
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="1001000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="1001000"/>
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="0" Param2="4"/>
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="1" Param2="2"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="350000"/>   
+                <CMD_SET_VCORE_MIN Param1 ="0"/>          
+                <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+                <CMD_SET_FSTB_FPS Param1="60" Param2="30"/>
+                <CMD_SET_FBT_FLOOR_BOUND Param1="1"/>
+                <CMD_SET_FBT_KMIN Param1="10"/>                
+                <CMD_SET_CPU_CORE_MIN Param1="8"/>
+            </Activity>
+        </Package> 
+
+        <Package name="com.imangi.templerun2">
+        	<Activity name="Common">            
+            	<CMD_SET_CLUSTER_CPU_CORE_MIN Param1="0" Param2="3"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.server.cts.device.graphicsstats">
+        	<Activity name="Common">
+            	<CMD_SET_CLUSTER_CPU_CORE_MIN Param1="1" Param2="4"/>
+            </Activity>
+        </Package>
+    </PerfService>    
+</WHITELIST>
